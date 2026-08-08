@@ -132,7 +132,7 @@ export function UpdateOpportunityForm({
                   <FormControl>
                     <Input
                       disabled={form.formState.isSubmitting}
-                      placeholder="New NextCRM functionality"
+                      placeholder="New StartingCRM functionality"
                       {...field}
                     />
                   </FormControl>
@@ -231,7 +231,7 @@ export function UpdateOpportunityForm({
                   <FormControl>
                     <Textarea
                       disabled={form.formState.isSubmitting}
-                      placeholder="New NextCRM functionality"
+                      placeholder="New StartingCRM functionality"
                       {...field}
                     />
                   </FormControl>

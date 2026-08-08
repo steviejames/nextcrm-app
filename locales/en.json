@@ -1,7 +1,7 @@
 {
   "RootLayout": {
-    "title": "NextCRM",
-    "description": "NextCRM is an open source CRM build on top of NextJS."
+    "title": "StartingCRM",
+    "description": "StartingCRM is an open source CRM build on top of NextJS."
   },
   "ModuleMenu": {
     "dashboard": "Dashboard",
@@ -28,7 +28,7 @@
   "DashboardPage": {
     "containerTitle": "Dashboard",
     "totalRevenue": "Total revenue",
-    "containerDescription": "Welcome to NextCRM, here you can see all important information about your business.",
+    "containerDescription": "Welcome to StartingCRM, here you can see all important information about your business.",
     "expectedRevenue": "Expected revenue",
     "activeUsers": "Active users",
     "accounts": "Companies",
@@ -49,7 +49,7 @@
     "cardTitle": "Create new account",
     "cardDescription": "Create account by login with",
     "label": "Language",
-    "locale": "{locale, select, de {German} en {English} cz {Czech} uk {Ukrainian} other {Unknown}}"
+    "locale": "{locale, select, de {German} en {English} cz {Czech} uk {Ukrainian} pt {Portuguese} other {Unknown}}"
   },
   "CrmModuleMenuComponent": {
     "menuTitle": "Sales"
@@ -78,6 +78,7 @@
     "czech": "Czech",
     "german": "German",
     "ukrainian": "Ukrainian",
+    "portuguese": "Portuguese",
     "selectPlaceholder": "Select language...",
     "searchPlaceholder": "Search language...",
     "noResult": "No language found.",

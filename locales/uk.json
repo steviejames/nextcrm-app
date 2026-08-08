@@ -1,7 +1,7 @@
 {
   "RootLayout": {
-    "title": "NextCRM",
-    "description": "NextCRM — це CRM з відкритим вихідним кодом, створена на основі NextJS."
+    "title": "StartingCRM",
+    "description": "StartingCRM — це CRM з відкритим вихідним кодом, створена на основі NextJS."
   },
   "ModuleMenu": {
     "dashboard": "Панель приладів",
@@ -27,7 +27,7 @@
   "DashboardPage": {
     "containerTitle": "Панель приладів",
     "totalRevenue": "Загальна виручка",
-    "containerDescription": "Ласкаво просимо до NextCRM, тут Ви можете побачити всю важливу інформацію про ваш бізнес.",
+    "containerDescription": "Ласкаво просимо до StartingCRM, тут Ви можете побачити всю важливу інформацію про ваш бізнес.",
     "expectedRevenue": "Очікуваний дохід",
     "activeUsers": "Активні користувачі",
     "accounts": "Компанії",
@@ -47,7 +47,7 @@
     "cardTitle": "Створити новий обліковий запис",
     "cardDescription": "Створіть обліковий запис, увійшовши за допомогою",
     "label": "Мова",
-    "locale": "{locale, select, de {German} en {Engish} cz {Czech} uk {Ukrainian} other {Unknown}}"
+    "locale": "{locale, select, de {Німецька} en {Англійська} cz {Чеська} uk {Українська} pt {Португальська} other {Невідома}}"
   },
   "CrmModuleMenuComponent": {
     "menuTitle": "Продажі"
@@ -76,6 +76,7 @@
     "czech": "Чеська",
     "german": "Німецька",
     "ukrainian": "Українська",
+    "portuguese": "Португальська",
     "selectPlaceholder": "Виберіть мову...",
     "searchPlaceholder": "Пошук мови...",
     "noResult": "Мову не знайдено.",

@@ -1,5 +1,5 @@
 <a href="https://nextcrm.app/">
-  <h1 align="center">NextCRM</h1>
+  <h1 align="center">StartingCRM</h1>
 </a>
 
 <p align="center">
@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-NextCRM is an open-source CRM built with Next.js 16, React 19, TypeScript, PostgreSQL (Prisma 7), and shadcn/ui. Features CRM, project management, invoicing, document storage, email client, AI-powered features, vector search, and MCP server for AI agent access.
+StartingCRM is an open-source CRM built with Next.js 16, React 19, TypeScript, PostgreSQL (Prisma 7), and shadcn/ui. Features CRM, project management, invoicing, document storage, email client, AI-powered features, vector search, and MCP server for AI agent access.
 </p>
 
 <p align="center">
@@ -41,7 +41,7 @@ You can try it here [demo.nextcrm.io](https://demo.nextcrm.io), login via Google
 
 ### 🧾 Invoices Module — Full Invoicing Workflow *(NEW)*
 
-Complete invoicing system built into NextCRM — create, issue, pay, duplicate, and cancel invoices with multi-currency support, tax rates, and PDF generation.
+Complete invoicing system built into StartingCRM — create, issue, pay, duplicate, and cancel invoices with multi-currency support, tax rates, and PDF generation.
 
 - **Invoice types** — Invoice, Credit Note, Proforma, and Receipt
 - **Line items** — per-line quantity, unit price, discount %, and tax rate with automatic totals calculation
@@ -112,7 +112,7 @@ ENV variable  →  Admin system-wide  →  User profile
 
 ### 🤖 MCP Server — AI Agent Access to CRM Data *(NEW)*
 
-NextCRM now ships with a built-in [Model Context Protocol](https://modelcontextprotocol.io/) server, letting AI agents (Claude, Cursor, custom agents) read and write CRM data directly.
+StartingCRM now ships with a built-in [Model Context Protocol](https://modelcontextprotocol.io/) server, letting AI agents (Claude, Cursor, custom agents) read and write CRM data directly.
 
 **127 tools across 15 modules:**
 
@@ -229,7 +229,7 @@ Global search across all CRM entities from a single search bar — grouped resul
 
 ## Roadmap
 
-1. ✅ Docker version — complete bundle to run NextCRM on-premise
+1. ✅ Docker version — complete bundle to run StartingCRM on-premise
 2. ✅ Upgrade to Next.js 16 — running on Next.js 16 with React 19
 3. ✅ i18n / localization — 4 languages (English, Czech, German, Ukrainian)
 4. ✅ Email client — IMAP/SMTP email client built in
@@ -254,7 +254,7 @@ We use [resend.com](https://resend.com) + [react.email](https://react.email) as 
 
 ### Mailtrap (Email API/SMTP)
 
-NextCRM supports [Mailtrap](https://mailtrap.io) as an alternative email provider to Resend, for both production sending and safe dev/staging testing through a single API.
+StartingCRM supports [Mailtrap](https://mailtrap.io) as an alternative email provider to Resend, for both production sending and safe dev/staging testing through a single API.
 
 **Sending emails (production):**
 
@@ -268,7 +268,7 @@ Use a Mailtrap Sandbox inbox instead of a production domain during development, 
 
 ## Reports
 
-We use Tremor charts as a tool for creating charts in NextCRM
+We use Tremor charts as a tool for creating charts in StartingCRM
 
 ![hero](/public/reports.png)
 
@@ -349,7 +349,7 @@ Available soon at: http://docs.nextcrm.io
 
 ## Docker Installation (Recommended for Self-Hosting)
 
-The fastest way to run NextCRM is with Docker Compose. The provided `docker-compose.yml` bundles everything you need: the app, PostgreSQL (with pgvector), MinIO for file storage, and Inngest for background jobs. No manual setup of databases, buckets, or migrations — it all happens automatically on first start.
+The fastest way to run StartingCRM is with Docker Compose. The provided `docker-compose.yml` bundles everything you need: the app, PostgreSQL (with pgvector), MinIO for file storage, and Inngest for background jobs. No manual setup of databases, buckets, or migrations — it all happens automatically on first start.
 
 ### Quick Start
 
@@ -364,13 +364,13 @@ docker compose up -d
 Open [http://localhost:3000](http://localhost:3000) — the app is ready, the schema is migrated, and the seeded admin user matches the `ADMIN_EMAIL` you set.
 
 > [!IMPORTANT]
-> NextCRM uses **passwordless Email OTP** for login. You MUST set `ADMIN_EMAIL` to an address you control AND provide a `RESEND_API_KEY` (or another email provider) so OTP codes can actually be delivered. Without an email provider, you can still log in by reading the OTP straight from the database — convenient for first-time testing, not for production.
+> StartingCRM uses **passwordless Email OTP** for login. You MUST set `ADMIN_EMAIL` to an address you control AND provide a `RESEND_API_KEY` (or another email provider) so OTP codes can actually be delivered. Without an email provider, you can still log in by reading the OTP straight from the database — convenient for first-time testing, not for production.
 
 ### What you get
 
 | Service | Purpose | Exposed |
 |---|---|---|
-| `app` | NextCRM (Next.js standalone build) | `localhost:3000` |
+| `app` | StartingCRM (Next.js standalone build) | `localhost:3000` |
 | `postgres` | PostgreSQL 17 with pgvector | internal only |
 | `minio` | S3-compatible object storage | internal only |
 | `inngest` | Background job runner | internal only |
@@ -463,13 +463,13 @@ Use that OTP on the sign-in page. After login, configure an email provider from 
 
 ## Contributing
 
-We are open to the NextCRM community contributions. Every contribution is welcome.
+We are open to the StartingCRM community contributions. Every contribution is welcome.
 
 ### Issues
 
 - [Open an issue](https://github.com/pdovhomilja/nextcrm-app/issues) if you find a bug or have a suggestion for improvements.
 
-### NextCRM Super heroes
+### StartingCRM Super heroes
 
 <a href="https://github.com/pdovhomilja/nextcrm-app/graphs/contributors">
 <img src="https://contrib.rocks/image?repo=pdovhomilja/nextcrm-app" />

@@ -153,7 +153,7 @@ export function NewLeadForm({ accounts, leadSources, leadStatuses, leadTypes, ac
                     <FormControl>
                       <Input
                         disabled={form.formState.isSubmitting}
-                        placeholder="NextCRM Inc."
+                        placeholder="StartingCRM Inc."
                         {...field}
                       />
                     </FormControl>
@@ -220,7 +220,7 @@ export function NewLeadForm({ accounts, leadSources, leadStatuses, leadTypes, ac
                   <FormControl>
                     <Textarea
                       disabled={form.formState.isSubmitting}
-                      placeholder="New NextCRM functionality"
+                      placeholder="New StartingCRM functionality"
                       {...field}
                     />
                   </FormControl>

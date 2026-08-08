@@ -1,7 +1,7 @@
 {
   "RootLayout": {
-    "title": "NextCRM",
-    "description": "Willkommen bei NextCRM CRM mit Prisma und Next.js 13"
+    "title": "StartingCRM",
+    "description": "Willkommen bei StartingCRM CRM mit Prisma und Next.js 13"
   },
   "ModuleMenu": {
     "dashboard": "Dashboard",
@@ -27,7 +27,7 @@
   "DashboardPage": {
     "containerTitle": "Dashboard",
     "totalRevenue": "Gesamtumsatz",
-    "containerDescription": "Willkommen bei NextCRM, hier können Sie alle wichtigen Informationen über Ihr Unternehmen sehen.",
+    "containerDescription": "Willkommen bei StartingCRM, hier können Sie alle wichtigen Informationen über Ihr Unternehmen sehen.",
     "expectedRevenue": "Erwarteter Umsatz",
     "activeUsers": "Aktive Benutzer",
     "accounts": "Unternehmen",
@@ -47,7 +47,7 @@
     "cardTitle": "Neuen Account erstellen",
     "cardDescription": "Erstellen Sie ein Konto, indem Sie sich anmelden mit",
     "label": "Sprache",
-    "locale": "{locale, select, de {Deutsch} en {Englisch} cz {Tschechisch} uk {Ukrainian} other {Unbekannt}}"
+    "locale": "{locale, select, de {Deutsch} en {Englisch} cz {Tschechisch} uk {Ukrainisch} pt {Portugiesisch} other {Unbekannt}}"
   },
   "CrmModuleMenuComponent": {
     "menuTitle": "Handel"
@@ -76,6 +76,7 @@
     "czech": "Tschechisch",
     "german": "Deutsch",
     "ukrainian": "Ukrainisch",
+    "portuguese": "Portugiesisch",
     "selectPlaceholder": "Sprache auswählen...",
     "searchPlaceholder": "Sprache suchen...",
     "noResult": "Keine Sprache gefunden.",

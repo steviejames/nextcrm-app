@@ -163,7 +163,7 @@ export function UpdateAccountForm({
                   <FormControl>
                     <Input
                       disabled={form.formState.isSubmitting}
-                      placeholder="NextCRM Inc."
+                      placeholder="StartingCRM Inc."
                       {...field}
                     />
                   </FormControl>
